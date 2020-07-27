@@ -1,0 +1,42 @@
+.example-container {
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #555;
+  }
+
+  .headertext
+  {
+  text-align: center;
+  font-size: 2em;
+  }
+
+  .jumbotron
+  {
+    background-color: white;
+  }
+
+  .mat-toolbar
+  {
+    background-color: black;
+  }
+
+
+
+  .mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
+
+  .example-headers-align .mat-expansion-panel-header-title,
+.example-headers-align .mat-expansion-panel-header-description {
+  flex-basis: 0;
+}
+
+.example-headers-align .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.example-headers-align .mat-form-field + .mat-form-field {
+  margin-left: 8px;
+}
